@@ -30,7 +30,7 @@ main{
     margin-left: 20px;
     margin-right: 20px;
 }
-.grid-item-1{
+.grid-item:nth-child(1){
     display: grid;
     background-color: rgb(115, 89, 13);
     padding: 20px;
@@ -40,7 +40,7 @@ main{
     grid-row-start: 1;
     grid-row-end: 2;
 }
-.grid-item-2{
+.grid-item:nth-child(2){
     display: grid;
     background-color:yellow;
     padding: 20px;
@@ -50,7 +50,7 @@ main{
     grid-row-start: 1;
     grid-row-end: 2;
 }
-.grid-item-3{
+.grid-item:nth-child(3){
     display: grid;
     background-color:yellow;
     padding: 20px;
@@ -60,7 +60,7 @@ main{
     grid-row-start: 1;
     grid-row-end: 2;
 }
-.grid-item-4{
+.grid-item:nth-child(4){
     display: grid;
     background-color:rgb(49, 54, 127);
     padding: 20px;
@@ -70,7 +70,7 @@ main{
     grid-row-start: 2;
     grid-row-end: 3;
 }
-.grid-item-5{
+.grid-item:nth-child(5){
     display: grid;
     background-color:yellow;
     padding: 20px;
@@ -80,7 +80,7 @@ main{
     grid-row-start: 2;
     grid-row-end: 3;
 }
-.grid-item-6{
+.grid-item:nth-child(6){
     display: grid;
     background-color:rgb(127, 24, 143);
     padding: 20px;
@@ -90,7 +90,7 @@ main{
     grid-row-start: 3;
     grid-row-end: 4;
 }
-.grid-item-7{
+.grid-item:nth-child(7){
     display: grid;
     background-color:yellow;
     padding: 20px;
@@ -100,7 +100,7 @@ main{
     grid-row-start: 4;
     grid-row-end: 5;
 }
-.grid-item-8{
+.grid-item:nth-child(8){
     display: grid;
     background-color:yellow;
     padding: 20px;
@@ -110,7 +110,7 @@ main{
     grid-row-start: 4;
     grid-row-end: 5;
 }
-.grid-item-9{
+.grid-item:nth-child(9){
     display: grid;
     background-color:rgb(128, 177, 193);
     padding: 20px;
